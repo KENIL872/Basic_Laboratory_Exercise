@@ -1,0 +1,13 @@
+c:\users\dell\documents\visual studio 2010\Projects\Project1\Project1\bin\Debug\Project1.exe
+c:\users\dell\documents\visual studio 2010\Projects\Project1\Project1\bin\Debug\Project1.pdb
+c:\users\dell\documents\visual studio 2010\Projects\Project1\Project1\obj\x86\Debug\Project1.exe
+c:\users\dell\documents\visual studio 2010\Projects\Project1\Project1\obj\x86\Debug\Project1.pdb
+c:\users\dell\documents\visual studio 2010\Projects\Project1\Project1\bin\Debug\Project1.exe.config
+D:\Project1\bin\Debug\Project1.exe.config
+D:\Project1\obj\x86\Debug\Project1.exe
+D:\Project1\obj\x86\Debug\Project1.pdb
+D:\Project1\bin\Debug\Project1.exe
+D:\Project1\bin\Debug\Project1.pdb
+D:\SUBJECT_PDF\Sem_5\C#.NET\Progamming\Assignment_1\bin\Debug\Project1.exe.config
+D:\SUBJECT_PDF\Sem_5\C#.NET\Progamming\Assignment_1\obj\x86\Debug\Project1.exe
+D:\SUBJECT_PDF\Sem_5\C#.NET\Progamming\Assignment_1\obj\x86\Debug\Project1.pdb
