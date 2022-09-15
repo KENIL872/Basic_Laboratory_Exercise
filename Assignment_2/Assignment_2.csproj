@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD357DEF-559E-4FBA-9828-4FD431B845DC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assignment_2</RootNamespace>
+    <AssemblyName>Assignment_2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Assignment_2.P_36</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="P_01.cs" />
+    <Compile Include="P_02.cs" />
+    <Compile Include="P_03.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="P_04.cs" />
+    <Compile Include="P_05.cs" />
+    <Compile Include="P_06.cs" />
+    <Compile Include="P_07.cs" />
+    <Compile Include="P_08.cs" />
+    <Compile Include="P_09.cs" />
+    <Compile Include="P_10.cs" />
+    <Compile Include="P_11.cs" />
+    <Compile Include="P_12.cs" />
+    <Compile Include="P_13.cs" />
+    <Compile Include="P_14.cs" />
+    <Compile Include="P_15.cs" />
+    <Compile Include="P_16.cs" />
+    <Compile Include="P_17.cs" />
+    <Compile Include="P_18.cs" />
+    <Compile Include="P_19.cs" />
+    <Compile Include="P_20.cs" />
+    <Compile Include="P_21.cs" />
+    <Compile Include="P_22.cs" />
+    <Compile Include="P_23.cs" />
+    <Compile Include="P_24.cs" />
+    <Compile Include="P_25.cs" />
+    <Compile Include="P_26.cs" />
+    <Compile Include="P_27.cs" />
+    <Compile Include="P_28.cs" />
+    <Compile Include="P_29.cs" />
+    <Compile Include="P_30.cs" />
+    <Compile Include="P_31.cs" />
+    <Compile Include="P_32.cs" />
+    <Compile Include="P_33.cs" />
+    <Compile Include="P_34.cs" />
+    <Compile Include="P_35.cs" />
+    <Compile Include="P_36.cs" />
+    <Compile Include="P_37.cs" />
+    <Compile Include="P_38.cs" />
+    <Compile Include="P_39.cs" />
+    <Compile Include="P_40.cs" />
+    <Compile Include="P_41.cs" />
+    <Compile Include="P_42.cs" />
+    <Compile Include="P_43.cs" />
+    <Compile Include="P_44.cs" />
+    <Compile Include="P_45.cs" />
+    <Compile Include="P_46.cs" />
+    <Compile Include="P_47.cs" />
+    <Compile Include="P_48.cs" />
+    <Compile Include="P_49.cs" />
+    <Compile Include="P_50.cs" />
+    <Compile Include="P_51.cs" />
+    <Compile Include="P_52.cs" />
+    <Compile Include="P_53.cs" />
+    <Compile Include="P_54.cs" />
+    <Compile Include="P_55.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
