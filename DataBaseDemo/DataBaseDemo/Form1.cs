@@ -135,7 +135,7 @@ namespace DataBaseDemo
             SqlCommand cmd = new SqlCommand("DELETE FROM [user] WHERE id=@id", con);
             cmd.Parameters.AddWithValue("@id", id);
 
-            SqlCommand cmd = new SqlCommand("TRUNCATE TABLE [user]", con);
+            //SqlCommand cmd = new SqlCommand("TRUNCATE TABLE [user]", con);
 
             con.Open();
             int i = cmd.ExecuteNonQuery();
@@ -188,5 +188,38 @@ namespace DataBaseDemo
             }
             comboBox1.SelectedItem = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SqlDataAdapter adps = new SqlDataAdapter("SELECT * FROM [user] WHERE [name] LIKE @name + '%'", con);
+            adps.SelectCommand.Parameters.AddWithValue("@name", textBox3.Text.Trim());
+            DataTable dt = new DataTable();
+            adps.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                dataGridView1.DataSource = dt;
+            }
+            else
+            {
+                dataGridView1.DataSource = null;
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            SqlDataAdapter adps = new SqlDataAdapter("SELECT * FROM [user] WHERE [name] LIKE @name + '%'", con);
+            adps.SelectCommand.Parameters.AddWithValue("@name", textBox3.Text.Trim());
+            DataTable dt = new DataTable();
+            adps.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                dataGridView1.DataSource = dt;
+            }
+            else
+            {
+                dataGridView1.DataSource = null;
+            }
+        }
+
     }
 }
